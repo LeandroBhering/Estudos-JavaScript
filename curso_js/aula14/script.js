@@ -5,7 +5,7 @@ function contar() {
     var res = document.querySelector('#res')
     if (txtinicio.value.length == 0 || txtfim.value.length == 0) {
         alert('[ERRO] Verifique os valores e tente novamente')
-    } else if(txtpasso.value.length == 0){
+    } else if(txtpasso.value.length == 0 || txtpasso.value == 0){
         var inicio = Number(txtinicio.value)
         var fim = Number(txtfim.value)
         var passo = 1
