@@ -5,13 +5,35 @@ function contar() {
     var res = document.querySelector('#res')
     if (txtinicio.value.length == 0 || txtfim.value.length == 0) {
         alert('[ERRO] Verifique os valores e tente novamente')
-    } else {
+    } else if(txtpasso.value.length == 0){
+        var inicio = Number(txtinicio.value)
+        var fim = Number(txtfim.value)
+        var passo = 1
+        res.innerHTML = ''
+        if (inicio > fim) {
+            for(var cont=inicio; cont>=fim; cont-=passo){
+                res.innerHTML += ` ${cont}`
+            }
+        } else { 
+            for(var cont=inicio; cont<=fim; cont+=passo){
+            res.innerHTML += ` ${cont}`
+            }
+        }
+     }else {
         var inicio = Number(txtinicio.value)
         var fim = Number(txtfim.value)
         var passo = Number(txtpasso.value)
-        for(var cont = inicio; cont <= fim; cont++){
-            res.innerHTML = `${cont}`
+        res.innerHTML = ''
+        if (inicio > fim){
+            for(var cont=inicio; cont>=fim; cont-=passo){
+                res.innerHTML += ` ${cont}`
+            }
+        } else {
+            for(var cont=inicio; cont<=fim; cont+=passo){
+                res.innerHTML += ` ${cont}`
+            }
         }
+       
     }
     
     
