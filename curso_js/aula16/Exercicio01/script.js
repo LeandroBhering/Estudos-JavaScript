@@ -33,5 +33,18 @@ function AddNum(){
 }
 
 function verificar(){
-
+    if (valores.length == 0) {
+        alert('[ERRO] Não existe valores adicionados')
+    } else {
+        res.innerHTML = `A soma dos valores é ${soma}`
+    }
 }
+
+function soma() {
+    var total = 0
+    for (let c = 0; c < valores.length; c++) {
+        total += valores[c]
+    }
+    res.innerHTML = `A soma dos valores é ${total}`
+}
+
