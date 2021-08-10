@@ -22,9 +22,10 @@ function inLista(n, l){
 function AddNum(){
     if (isNumero(num.value) && !inLista(num.value, valores)) {
         valores.push(Number(num.value))
-        let item = document.createElement('option')
+        var item = document.createElement('option')
         item.text = `Valor ${num.value} adicionado`
         lista.appendChild(item)
+        res.innerHTML = ''
     } else {
         alert('[ERRO] Valor inválido ou já encontrado na lista.')
     }
@@ -36,15 +37,56 @@ function verificar(){
     if (valores.length == 0) {
         alert('[ERRO] Não existe valores adicionados')
     } else {
-        res.innerHTML = `A soma dos valores é ${soma}`
+        let tot = valores.length
+        let $soma = ''
+        let $maior = ''
+        let $menor = ''
+        res.innerHTML = ''
+        res.innerHTML += `<p>O total de números adicionados é ${tot}.</p>`
+        res.innerHTML += `<p>O maior número é ${maiorN($maior)}.</p>` 
+        res.innerHTML += `<p>O menor número é ${menorN($menor)}.</p>`
+        res.innerHTML += `<p>A soma dos valores é ${soma($soma)}.</p>`
+    
     }
 }
 
-function soma() {
-    var total = 0
+function soma($total) {
+    var $total = 0
     for (let c = 0; c < valores.length; c++) {
-        total += valores[c]
+        $total += valores[c]
     }
-    res.innerHTML = `A soma dos valores é ${total}`
+    return $total
 }
 
+function maiorN ($m) {
+    var $m = valores[0]
+    for (const pos in valores) {
+        if (valores[pos] > $m) {
+            $m = valores[pos] 
+        } 
+    }
+    return $m
+}
+
+function menorN ($me) {
+    var $me = valores[0]
+    for (let pos in valores) {
+        if (valores[pos] < $me){
+        $me = valores[pos]
+        }
+    }
+    return $me
+}
+
+function media ($med){
+    $med = 0
+    
+}
+
+function limparlista() {
+    while(valores.length) {
+        valores.pop();
+     }
+     res.innerHTML = ''
+     
+}
