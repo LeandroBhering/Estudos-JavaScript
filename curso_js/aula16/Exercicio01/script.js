@@ -91,6 +91,6 @@ function limparlista() {
     while(valores.length) {
         valores.pop();
      }
-     res.innerHTML = ''
-     
+    res.innerHTML = ''
+    lista.innerHTML = ''
 }
