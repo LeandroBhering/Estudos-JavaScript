@@ -41,11 +41,13 @@ function verificar(){
         let $soma = ''
         let $maior = ''
         let $menor = ''
+        let $media = ''
         res.innerHTML = ''
         res.innerHTML += `<p>O total de números adicionados é ${tot}.</p>`
         res.innerHTML += `<p>O maior número é ${maiorN($maior)}.</p>` 
         res.innerHTML += `<p>O menor número é ${menorN($menor)}.</p>`
         res.innerHTML += `<p>A soma dos valores é ${soma($soma)}.</p>`
+        res.innerHTML += `<p>A média entre os valores é ${media($media)}</p>`
     
     }
 }
@@ -79,8 +81,10 @@ function menorN ($me) {
 }
 
 function media ($med){
-    $med = 0
-    
+   var $med = 0
+   let s = 0
+   $med = soma(s)/valores.length
+   return $med
 }
 
 function limparlista() {
