@@ -30,7 +30,7 @@ function fizzBuzz(entrada){
 }
 */
 
-verificarVelocidade(150)
+verificarVelocidade(107)
 
 function verificarVelocidade (velocidade){
         var pontos = 0
