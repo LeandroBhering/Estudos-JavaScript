@@ -17,5 +17,9 @@ function adicionarNomes(fnome) {
 }
 
 adicionarNomes($nome)
+$nome = 'Camila'
+adicionarNomes($nome)
+$nome = 'Jubileu'
+adicionarNomes($nome)
 console.log(cadastro)
 
