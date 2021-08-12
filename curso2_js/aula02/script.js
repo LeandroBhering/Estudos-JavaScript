@@ -1,12 +1,9 @@
-let a = 'vermelho'
-let b = 'azul'
+var vetor = ['hoje', 'amanha', 'depois',2,3,4]
 
-console.log(a)
-console.log(b)
+for (let i in vetor){
+    console.log(vetor[i])
+}
 
-let c = a
-a = b 
-b = c 
-
-console.log(a)
-console.log(b)
+for (let indice of vetor){
+    console.log(indice)
+}
