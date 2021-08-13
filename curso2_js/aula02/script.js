@@ -89,3 +89,16 @@ function exibirTipo (limite){
 */
 
 
+// Minha solução
+var filme = {
+    titulo: 'Resgate do Soldade Ryan',
+    ano: 1994,
+    diretor: 'Steven Spilberg',
+    personagem: 'Cap Miller'
+}
+
+exibirPropiedades(filme)
+
+function exibirPropriedades(obj) {
+    
+}
