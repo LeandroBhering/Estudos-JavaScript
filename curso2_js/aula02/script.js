@@ -71,6 +71,7 @@ function verificarVelocidade(velocidade) {
 }
 */
 
+/*
 // Minha Solução
 
 exibirTipo (10)
@@ -85,4 +86,6 @@ function exibirTipo (limite){
 }   
 
 // Solução do Professor - Igual a minha
+*/
+
 
