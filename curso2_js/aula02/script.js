@@ -30,20 +30,42 @@ function fizzBuzz(entrada){
 }
 */
 
-verificarVelocidade(107)
+// minha solução 
+/*
+verificarVelocidade(50)
 
 function verificarVelocidade (velocidade){
         var pontos = 0
         if (velocidade <= 70) {
-            return console.log('ok')
-        }
+            console.log('ok')
+        } else {
         for (let c = velocidade; c > 70; c-=5 ){
           pontos++
         }
         if (pontos > 12) {
-            return console.log('carteira suspensa')
+            console.log('carteira suspensa')
         }else if (pontos <= 12){
-            return console.log(pontos)
+            console.log(pontos)
         }
-
+    }
 } 
+*/
+
+// solução do professor 
+
+verificarVelocidade(140)
+
+function verificarVelocidade(velocidade) {
+    const velocidadeMax = 70
+    const kmPorPonto = 5
+    if (velocidade <= velocidadeMax) {
+        console.log('ok')
+    } else {
+        const pontos = Math.floor(((velocidade - velocidadeMax)/kmPorPonto))
+        if (pontos > 12) {
+            console.log('Carteira suspensa')
+        } else {
+            console.log(pontos)
+        }     
+    }
+}
