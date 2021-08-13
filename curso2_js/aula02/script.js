@@ -30,8 +30,9 @@ function fizzBuzz(entrada){
 }
 */
 
-// minha solução 
 /*
+// minha solução 
+
 verificarVelocidade(50)
 
 function verificarVelocidade (velocidade){
@@ -49,7 +50,6 @@ function verificarVelocidade (velocidade){
         }
     }
 } 
-*/
 
 // solução do professor 
 
@@ -69,3 +69,5 @@ function verificarVelocidade(velocidade) {
         }     
     }
 }
+*/
+
