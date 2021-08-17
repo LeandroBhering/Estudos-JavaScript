@@ -88,7 +88,7 @@ function exibirTipo (limite){
 // Solução do Professor - Igual a minha
 */
 
-
+/*
 // Minha solução
 var filme = {
     titulo: 'Resgate do Soldade Ryan',
@@ -105,4 +105,19 @@ function exibirPropriedades(obj) {
         console.log(prop, obj[prop]) 
     }
   }
+}
+*/
+
+somar(52)
+
+function somar(limite) {
+    var M3 = 0
+    var M5 = 0
+    for (i = 0; i <= limite; i++){
+        if (i%3 === 0)
+            M3 += i
+        if (i%5 === 0) 
+            M5 += i  
+    }
+    console.log(M5+M3)
 }
