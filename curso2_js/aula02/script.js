@@ -124,3 +124,20 @@ function somar(limite) {
 }
 */
 
+// 0-59: F
+// 60-69: D
+// 70-79: C
+// 80-89: B
+// 90-100: A
+
+const array = [70,70,80]
+
+console.log(mediaDoAluno(array))
+
+function mediaDoAluno(notas) {
+    var soma = 0
+    for (i = 0; i <= notas.length;i++){
+        soma += notas[i]
+    }
+    console.log(soma/notas.length)
+}
