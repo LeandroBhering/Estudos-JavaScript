@@ -97,8 +97,12 @@ var filme = {
     personagem: 'Cap Miller'
 }
 
-exibirPropiedades(filme)
+exibirPropriedades(filme)
 
 function exibirPropriedades(obj) {
-    
+    for (prop in obj){
+    if (typeof obj[prop] === 'string') {
+        console.log(prop, obj[prop]) 
+    }
+  }
 }
