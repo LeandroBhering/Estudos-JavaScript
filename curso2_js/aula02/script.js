@@ -108,6 +108,7 @@ function exibirPropriedades(obj) {
 }
 */
 
+/*
 somar(52)
 
 function somar(limite) {
@@ -121,3 +122,5 @@ function somar(limite) {
     }
     console.log(M5+M3)
 }
+*/
+
