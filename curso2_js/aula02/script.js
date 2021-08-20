@@ -130,14 +130,20 @@ function somar(limite) {
 // 80-89: B
 // 90-100: A
 
-const array = [70,70,80]
+const array = [100,100,80]
 
 console.log(mediaDoAluno(array))
 
 function mediaDoAluno(notas) {
     var soma = 0
-    for (i = 0; i <= notas.length;i++){
-        soma += notas[i]
+    for (let nota of notas){
+        soma += nota
     }
-    console.log(soma/notas.length)
+    var media = soma/(notas.length)
+    
+    if (media < 59) return 'F'
+    if (media < 69) return 'D'
+    if (media < 79) return 'C'
+    if (media < 89) return 'B'
+    return 'A'
 }
