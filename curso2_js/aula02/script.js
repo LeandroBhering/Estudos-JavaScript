@@ -124,6 +124,7 @@ function somar(limite) {
 }
 */
 
+/*
 // 0-59: F
 // 60-69: D
 // 70-79: C
@@ -146,4 +147,22 @@ function mediaDoAluno(notas) {
     if (media < 79) return 'C'
     if (media < 89) return 'B'
     return 'A'
+}
+*/
+
+exibirAsteriscos(10)
+
+function exibirAsteriscos(linhas) {
+//   let ast = ''
+//  for(let i = 1; i <= linhas; i++){
+//        ast += '*'
+//        console.log(ast)
+//    }
+    for (let linha = 1; linha <= linhas; linha++){
+        let ast = ''
+        for (let i = 0; i < linha;i++){
+        ast += '*'
+        }
+        console.log(ast)
+    }
 }
