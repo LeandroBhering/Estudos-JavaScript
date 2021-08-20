@@ -150,6 +150,7 @@ function mediaDoAluno(notas) {
 }
 */
 
+/*
 exibirAsteriscos(10)
 
 function exibirAsteriscos(linhas) {
@@ -166,3 +167,5 @@ function exibirAsteriscos(linhas) {
         console.log(ast)
     }
 }
+*/
+
