@@ -1,3 +1,29 @@
+function Lancador(param) {
+    var lanca = ''
+    for (let i = 0; i < param; i++){
+        lanca += i
+        console.log(lanca)
+    }
+}
+
+
+
+Lancador(30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 var vetor = ['hoje', 'amanha', 'depois',2,3,4]
 
