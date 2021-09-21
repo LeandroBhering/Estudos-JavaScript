@@ -16,6 +16,35 @@
 
 
 
+
+
+
+
+
+/*
+var nome = 'Marciano'
+var questao = '3 divido por 4'
+
+function resultado(n1,n2){
+    return n1/n2
+}
+
+
+const mensagem = `
+Olá ${nome}!
+
+Eu estou aqui mais uma vez para te dizer o resultado.
+Sua questão é a ${questao}.
+O resultado para sua questão é:
+${resultado(3,4)}
+
+Obrigado!
+Leandro
+`
+
+console.log(mensagem)
+*/
+ 
 /*
 // função Math
 
