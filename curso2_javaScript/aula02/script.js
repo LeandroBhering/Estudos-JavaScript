@@ -7,6 +7,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*function cadastroPessoa(nome, sexo, idade, cpf) {
+    return{
+        nome,
+        sexo,
+        idade,
+        cpf,
+    }
+}
+var pessoa = [
+    cadastroPessoa('Leandro', 'masculino', 27, 40093820828), cadastroPessoa('Camila','feminino',30, 50120365985),
+    cadastroPessoa('Jacqueline','feminino',50, 40152132652)
+]
+
+console.log(pessoa)
+*/
+
 /*
 listaNum = [12, 31, 3, 1, 54, 83,71]
 
