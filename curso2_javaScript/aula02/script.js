@@ -16,6 +16,20 @@
 
 
 
+/*function cadastroPessoa(nome, sexo, idade, cpf) {
+    this.nome = nome,
+    this.sexo = sexo,
+    this.idade = idade,
+    this.cpf = cpf
+}
+
+var pessoas = [
+    new cadastroPessoa('Leandro','Masculino', 27, 40093820828),
+    new cadastroPessoa('camila','Feminino', 30, 11122233344)
+]
+
+console.log(pessoas)
+*/
 
 
 /*function cadastroPessoa(nome, sexo, idade, cpf) {
