@@ -18,6 +18,28 @@
 
 
 
+/*
+var infTeste = {
+    info: 1,
+    info2: 2,
+    info3: 3
+}
+
+console.log(infTeste)
+
+// Copiar um objeto
+
+const infTeste2 = Object.assign({
+    info4: 4
+},infTeste)
+
+console.log(infTeste2)
+
+const infTeste3 = {...infTeste}
+
+console.log(infTeste3)
+*/
+
 
 /*var objeto = {
     tipo: 'Bola',
