@@ -16,6 +16,16 @@
 
 
 
+/*
+// função Math
+
+console.log(Math.random())
+console.log(Math.max(1,25,10,34,2,8,))
+console.log(Math.min(25,125,320,1000,2))
+console.log(Math.sqrt(25))
+console.log(Math.abs(543))
+console.log(Math.trunc(21.523))
+*/
 
 
 /*
