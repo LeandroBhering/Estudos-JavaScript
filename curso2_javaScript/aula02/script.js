@@ -1,28 +1,25 @@
-function Lancador(param) {
-    var lanca = ''
-    for (let i = 0; i < param; i++){
-        lanca += i
-        console.log(lanca)
+
+
+
+
+
+
+
+
+
+/*
+listaNum = [12, 31, 3, 1, 54, 83,71]
+
+function numerosPrimos(lista) {
+    for (const numeros of lista) {
+        if ((numeros %2 == 1) && (numeros / numeros == 1)) {
+            console.log(numeros)          
+        }
     }
 }
 
-
-
-Lancador(30)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+numerosPrimos(listaNum)
+*/
 
 /*
 var vetor = ['hoje', 'amanha', 'depois',2,3,4]
