@@ -16,6 +16,27 @@
 
 
 
+
+
+
+/*var objeto = {
+    tipo: 'Bola',
+    forma: 'redonda'
+}
+
+objeto.tamanho = 'Grande'
+objeto.cor= 'Branco'
+objeto.algumaFuncao = function () {
+    console.log('Alguma coisa aqui')
+}
+
+delete objeto.algumaFuncao
+delete objeto.cor
+
+console.log(objeto)
+*/
+
+
 /*function cadastroPessoa(nome, sexo, idade, cpf) {
     this.nome = nome,
     this.sexo = sexo,
