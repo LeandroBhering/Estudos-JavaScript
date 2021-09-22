@@ -1,23 +1,11 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+var idade = prompt('Qual a sua idade?')
+if (idade >= 18) {
+    alert('Você é um adulto')
+} else {
+    alert('Você é menor de idade')
+}
+*/
 
 
 /*
