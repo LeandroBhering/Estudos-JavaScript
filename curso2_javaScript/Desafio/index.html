@@ -27,7 +27,7 @@
         font-family: 'Tourney', cursive;
         font-size: 35pt;
     }
-    h2 {
+    h2, p {
         padding: 15px;
         font-family: 'Lemonada', cursive;
         font-size: 13pt;
@@ -51,9 +51,9 @@
         <input type="text" id="convidado" placeholder="Qual o seu nome?">
         <h2>Quem te convidou para a festa?</h2>
         <input type="text" id="quemConvidou" placeholder="Quem te convidou?">
-        <input type="submit" id="enviar" value="Verificar se posso entrar">
+        <input type="submit" id="enviar" onclick="verificar()" value="Verificar se posso entrar">
         <h2>Verifique abaixo se sua entrada é permitida:</h2>
-        <p id="resposta"></p>
+        <p id="resposta" ></p>
     </div>
     <script src="script.js"></script>
 </body>
