@@ -10,6 +10,59 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// Encontrando elementos(primitivos) em um Array
+const numeros = [1,2,1,3,4,5,6,5]
+console.log(numeros)
+ 
+// retorna o indice do elemento Ex de elemento (1)
+console.log(numeros.indexOf(1))
+
+// se não há o elemento retorna -1 Ex de elemento (7) e ('1')
+console.log(numeros.indexOf(7))
+console.log(numeros.indexOf('1'))
+
+// Como descobrir se há um elemento Ex(3) dentro de uma Array
+console.log(numeros.indexOf(3) !== -1)
+console.log(numeros.includes(3)) // Mais simples
+
+// ultimo indice que o elemento Ex(5) se encontra
+console.log(numeros.lastIndexOf(5)) 
+
+
+// Encontrando elementos(Tipos de referência) em um Array de objetos
+
+let nome = 'abha'
+const marcas = [
+    {id:1, nome:'abe'},
+    {id:2, nome:'abelha'},
+    {id:3, nome:'alha'},
+    {id:4, nome:'eha'},
+    {id:5, nome:'abha'},
+]
+console.log(marcas)
+
+// Retorna um elemento dentro de um array de objetos
+const marca = marcas.find(function(marca){
+    return marca.nome === nome
+}) 
+console.log(marca)
+*/
+
+
+
 /*
 // Inserindo elementos em uma Array
 const numeros = [1,2,3]
