@@ -21,6 +21,22 @@
 
 
 /*
+const numeros = [1,2,3,4,5]
+console.log(numeros)
+
+const combinado = numeros.join('-')
+console.log(combinado)
+
+let frase = 'Essa é uma frase de teste'
+console.log(frase)
+let separada = frase.split(' ')
+console.log(separada)
+
+console.log(separada.join('-'))
+*/
+
+
+/*
 // Iterando um ARRAY
 const numeros = [1,2,3,4,5,6]
 console.log(numeros)
