@@ -15,6 +15,33 @@
 
 
 
+
+
+
+
+
+
+
+
+/*
+// Removendo elementos de um Array
+
+const numeros = [1,2,3,4,5,6]
+console.log(numeros)
+
+//Final
+console.log(numeros.pop())
+console.log(numeros)
+// Inicio
+console.log(numeros.shift())
+console.log(numeros)
+// Meio
+console.log(numeros.splice(3))
+console.log(numeros)
+*/
+
+
+
 /*
 // Arrow Functions
 
