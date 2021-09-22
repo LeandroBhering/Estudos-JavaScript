@@ -20,6 +20,50 @@
 
 
 /*
+let faixaDePreco = [
+    {tooltip: 'Até R$700', min:0, max: 700},
+    {tooltip: 'De R$700 a R$1000', min:700, max: 1000},
+    {tooltip: 'De R$1000 ou mais', min:1000, max: 9999999}
+]
+
+console.log(faixaDePreco)
+
+// Segunda Opção (Factory Function)
+
+function faixadePreco(tooltip, min,max) {
+    return {
+        tooltip,
+        min,
+        max
+    }
+}
+
+let faixa = [
+    faixadePreco('até 700',0,700),
+    faixadePreco('de 700 ate 1000', 700,1000)
+]
+console.log(faixa)
+
+// Terceira Opção (Constructor Fuction)
+
+function faixadepreco(tooltip,min,max) {
+    this.tooltip = tooltip,
+    this.min = min,
+    this.max = max
+}
+
+let faixa2 = [
+    new faixadepreco('Até 700', 0, 700),
+    new faixadepreco('De 700 a 1000', 700, 1000)
+]
+
+console.log(faixa2)
+*/
+
+
+
+
+/*
 function Postagem(titulo, mensagem,autor) {
     this.titulo = titulo,
     this.mensagem = mensagem,
