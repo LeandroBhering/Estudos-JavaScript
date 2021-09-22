@@ -6,14 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festa VIP do LEANDRO</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Tourney:ital,wght@1,200&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(2, 14, 70);
+    }
+    div {
+        margin: 20px auto;
+        background-color: rgb(70, 127, 250);
+        width: 500px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Tourney', cursive;
+        font-size: 35pt;
+    }
+    h2 {
+        padding: 15px;
+        font-family: 'Lemonada', cursive;
+        font-size: 13pt;
+    }
+    input {
+        margin-left: 15px;
+        font-family: 'Lemonada', cursive;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.555);
+    }
+    #enviar:hover {
+        background-color: rgb(38, 112, 248);
+    }
+</style>
 <body>
-    <h1>FESTA VIP</h1>
-    <h2>Seja bem vindo a festa:</h2>
-    <input type="text" id="convidado" placeholder="Qual o seu nome?">
-    <h2>Quem te convidou para a festa?</h2>
-    <input type="text" id="quemConvidou" placeholder="Quem te convidou?">
-    <h2>Verifique abaixo se sua entrada é permitida:</h2>
-    <p id="resposta"></p>
+    <div>
+        <h1>FESTA VIP</h1>
+        <h2>Seja bem vindo a festa:</h2>
+        <input type="text" id="convidado" placeholder="Qual o seu nome?">
+        <h2>Quem te convidou para a festa?</h2>
+        <input type="text" id="quemConvidou" placeholder="Quem te convidou?">
+        <input type="submit" id="enviar" value="Verificar se posso entrar">
+        <h2>Verifique abaixo se sua entrada é permitida:</h2>
+        <p id="resposta"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
