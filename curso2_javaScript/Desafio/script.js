@@ -8,14 +8,15 @@ const lista = [
     {convidado: 'jacqueline', convidou: 'leandro'},
     {convidado: 'maria eduarda', convidou: 'leandro'},
     {convidado: 'rodolfo', convidou: 'camila'},
-    {convidado: 'ricardo', convidou: 'camila'},
+    {convidado: 'ricardo', convidou: 'camila'}
 ]
 
+
 function verificar(){
-    if ((lista.forEach(() => nomeConvidou.value == lista.convidou)  && (lista.forEach(() => nomeConvidado.value == lista.convidado)))) {
-        resposta.innerHTML = 'Parabéns! Você está na lista de convidados!'   
-    } else {
-        resposta.innerHTML = 'Ops! Parece que você não foi convidado para a festa'
+    for (let i = 0; i <= lista.length; i++){
+        if (nomeConvidou.value == lista[i].convidou) {
+            return resposta.innerHTML = 'Parabéns! Você está na lista de convidados!' 
+        }            
     }
-    
+            resposta.innerHTML = 'Ops! Parece que você não foi convidado para a festa'
 }
