@@ -15,10 +15,60 @@
 
 
 
+/*
+// Operador SPREAD
+const primeiro = [1,2,3]
+const segundo = [4,5,6]
+console.log(primeiro,segundo)
+// Juntando os dois arrays em um só com Spred (...)
+const combinado = [...primeiro,'a',...segundo,'#']
+console.log(combinado)
+// Clonando um array com spread
+const clonado = [...combinado]
+console.log(clonado)
+*/
 
 
 
+/*
+// Combinando e cortando arrays
+const primeiro = [1,2,3,4]
+const segundo = [5,6,7,8]
+console.log(primeiro, segundo)
+// Juntando os dois Arrays em um só.
+const combinado = primeiro.concat(segundo)
+console.log(combinado)
+// Dividindo um Arrays
+const dividir = combinado.slice(0,4) // Vai pegar os elementos do indice 0 até indice 3
+console.log(dividir)
+*/
 
+
+
+/*
+// Esvaziando um Array
+let numeros = [1,2,3,4,5,6]
+let outros = numeros
+console.log(numeros)
+console.log(outros)
+// - Solução 1 -
+// console.log(numeros = [])
+// console.log(numeros)
+// console.log(outros)
+// - Solução 2 -
+console.log(numeros.length = 0)
+console.log(numeros)
+console.log(outros)
+// - Solução 3 -
+// console.log(numeros.splice(0,numeros.length))
+// console.log(numeros)
+// console.log(outros)
+// - Solução 4 -
+/*for (let i = numeros.length; i > 0; i--){
+    console.log(numeros.pop(numeros.length))
+}
+console.log(numeros)
+console.log(outros)*/
 
 
 
