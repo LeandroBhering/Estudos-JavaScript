@@ -1,3 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function endereco(rua, cidade, cep) {
     this.rua = rua,
     this.cidade = cidade,
@@ -9,30 +33,18 @@ const endereco2 = new endereco('a','b','c')
 
 function saoIguais(endereco1, endereco2) {
     if ((endereco1.rua === endereco2.rua) && (endereco1.cidade === endereco2.cidade) && (endereco1.cep === endereco2.cep)) {
-        return console.log(true)
+        return true
     }
     return console.log(false)
 }
 
 function temEnderecoMemoriaIguais (endereco1, endereco2) {
-    
+    return endereco1 === endereco2
 }
 
-saoIguais(endereco1,endereco2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(saoIguais(endereco1,endereco2))
+console.log(temEnderecoMemoriaIguais(endereco1,endereco2))
+*/
 
 
 
