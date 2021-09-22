@@ -15,11 +15,23 @@
 
 
 
+/*
+// Arrow Functions
 
+let nome = 'abe'
+const marcas = [
+    {id:1, nome:'abe'},
+    {id:2, nome:'abelha'},
+    {id:3, nome:'alha'},
+    {id:4, nome:'eha'},
+    {id:5, nome:'abha'}
+]
+console.log(marcas)
 
+// Retorna um elemento dentro de um array de objetos
 
-
-
+console.log(marcas.find(marca => marca.nome === nome))
+*/
 
 
 /*
@@ -50,7 +62,7 @@ const marcas = [
     {id:2, nome:'abelha'},
     {id:3, nome:'alha'},
     {id:4, nome:'eha'},
-    {id:5, nome:'abha'},
+    {id:5, nome:'abha'}
 ]
 console.log(marcas)
 
