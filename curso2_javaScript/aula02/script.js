@@ -18,7 +18,21 @@
 
 
 
+/*
+let postagem = {
+    titulo: 'Nova',
+    mensagem: 'Alo marciano estou aqui',
+    autor: 'Leandro Bhering',
+    visualizacoes:120,
+    comentarios: [
+     {autor: 'jubileu', mensagem:'Que merda é essa'},
+     {autor: 'Leopooldo', mensagem: 'Wtf is this'}
+    ],
+    estaAoVivo: true
+}
 
+console.log(postagem)
+*/
 
 
 /*
