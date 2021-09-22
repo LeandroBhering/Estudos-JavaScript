@@ -15,6 +15,26 @@
 
 
 
+
+
+
+
+
+/*
+// Iterando um ARRAY
+const numeros = [1,2,3,4,5,6]
+console.log(numeros)
+// - Situação 1 -
+var lista = []
+for (const numero of numeros) {
+    lista.push(numero)
+}
+console.log(lista)
+// - Situação 2 -
+numeros.forEach((numero, indice) => console.log(numero, indice))
+*/
+
+
 /*
 // Operador SPREAD
 const primeiro = [1,2,3]
