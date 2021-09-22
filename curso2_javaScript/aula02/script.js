@@ -17,7 +17,21 @@
 
 
 
+/*
+var endereco = {
+    rua: 'Boteco cardoso',
+    cidade: 'São paulo',
+    cep: '03716-020'
+}
 
+function exibirEndereco(endereco) {
+    for (const key in endereco) {
+        console.log(key,endereco[key])
+    }
+}
+
+exibirEndereco(endereco)
+*/
 
 
 
