@@ -1,5 +1,5 @@
-function moveCircle () {
-    
-}
+var tituloH1 = document.createElement('h1');
+tituloH1.textContent = 'Meu TITULO';
 
-moveCircle()
+console.log(tituloH1)
+
