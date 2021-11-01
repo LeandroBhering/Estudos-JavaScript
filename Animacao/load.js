@@ -1,5 +1,3 @@
-var tituloH1 = document.createElement('h1');
-tituloH1.textContent = 'Meu TITULO';
+var display = document.getElementById('display')
 
-console.log(tituloH1)
-
+display.innerHTML = bolinha
